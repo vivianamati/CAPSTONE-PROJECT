@@ -1,5 +1,5 @@
-from django.urls import path, include
-from tryapp.views import task_list,home, task_create, task_update, task_delete, signup, login_view, logout_view
+from django.urls import path
+from tryapp.views import task_list, home, task_create, task_update, task_delete, signup, login_view, logout_view
 from tryapp import views
 from django.contrib.auth import views as auth_views
 urlpatterns = [

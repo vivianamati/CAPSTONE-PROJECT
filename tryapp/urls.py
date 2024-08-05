@@ -1,5 +1,5 @@
 from django.urls import path, include
-from tryapp.views import task_list, task_create, task_update, task_delete, signup, login_view, logout_view
+from tryapp.views import task_list,home, task_create, task_update, task_delete, signup, login_view, logout_view
 from tryapp import views
 from django.contrib.auth import views as auth_views
 urlpatterns = [
@@ -16,7 +16,7 @@ urlpatterns = [
     # path('accounts/', include('django.contrib.auth.urls')),  # Django's built-in auth views
     # This includes /accounts/login/, /accounts/logout/, /accounts/password_reset/, etc.
 
-    path('', views.home, name='home'),  # URL for the landing page
+    path('', home, name='home'),  # URL for the landing page
 
     path('login/', login_view, name='login'),  # Map login_view to 'login'
 

@@ -99,8 +99,8 @@ WSGI_APPLICATION = 'tryproject.wsgi.application'
 # }
 
 DATABASES = {
-    "default": dj_database_url.parse("postgresql://djangodb_td0g_user:KOCmBSZx3qypFylWx5WWLbXyL4eIpwBC@dpg-cq2gt9jv2p9s73esjne0-a.oregon-postgres.render.com/djangodb_td0g")
-}
+    "default": dj_database_url.parse("postgresql://newdb_fxmr_user:1lQYtvqvcW7pI6D0TyFaTxvy5QU1NHUH@dpg-cqo6jojv2p9s73aknbfg-a.oregon-postgres.render.com/newdb_fxmr")
+} 
 
 
 # Password validation
